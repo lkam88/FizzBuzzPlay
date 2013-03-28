@@ -9,7 +9,7 @@ GET     /                           controllers.Application.index
 GET     /fizzbuzz/                 controllers.FizzBuzz.indexDefault
 GET     /fizzbuzz/:number          controllers.FizzBuzz.index(number: Int)
 
-GET     /fizzbuzz/:number/json          controllers.FizzBuzz.json(number: Int)
+GET     /fizzbuzz/:number/json      controllers.FizzBuzz.json(number: Int)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
