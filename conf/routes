@@ -6,7 +6,7 @@
 GET     /                           controllers.Application.index
 
 # FizzBuzz API
-GET     /fizzbuzz/                 controllers.FizzBuzz.indexDefault
+GET     /fizzbuzz                 controllers.FizzBuzz.indexDefault
 GET     /fizzbuzz/:number          controllers.FizzBuzz.index(number: Int)
 
 GET     /fizzbuzz/:number/json      controllers.FizzBuzz.json(number: Int)
